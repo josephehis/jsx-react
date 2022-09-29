@@ -1,17 +1,52 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// const returnJSX = ()=> 'hello world';
+
+
+// function App(){
+//     const name = ['Sharon', 'John'];
+//     const nameObject = {
+//         firstName: 'Veron',
+//         LastName: 'John',
+//     }
+
+//     return(
+//         <div>
+//             <div className = 'divTag' styel={{backgroundColor: 'pink', width: '20%'}}>
+                
+//                    {/* {nameArray} */}
+//                    {nameObject.firstName}{nameObject.lastName}
+//                    hello world
+                
+//             </div>
+//             <label htmlFor= 'myInput'>
+//                    <input id= 'myInput'/>
+//             </label>
+//         </div>
+//     )
+// }
+
+    
+// //return <div>hello world
+
+//     //</div>
+    
+    
+
+
+// //class App extends React.Component{
+//     //render(){
+//         //return <div>hello world</div>
+    
+//    // }
+// //}
+
+root.render(<App/>);
+
